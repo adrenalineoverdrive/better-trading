@@ -1,7 +1,10 @@
 body.bt-body {
   overflow-y: scroll;
 
-  #app {
+  // The trade site used #app historically, but the current site mounts the
+  // search UI at #trade. Resize both roots so the panel does not cover it.
+  #app,
+  #trade {
     width: calc(100% - #{$extension-width});
     margin: 0;
     transition: width 0.2s ease;
@@ -21,7 +24,8 @@ body.bt-body {
   }
 
   &.bt-is-collapsed {
-    #app {
+    #app,
+    #trade {
       width: 100%;
     }
 
