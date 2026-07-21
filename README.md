@@ -24,6 +24,24 @@ In the meantime, you can continue to use version [1.3.2 on Firefox](https://addo
 - Searched mods highlighting
 - ... more to come !
 
+## Install the prebuilt local extension on Windows
+
+The repository includes a ready-to-load development build, so Windows users do
+not need Node.js, npm, or nvm to install it.
+
+1. Download the latest ZIP from [the repository](https://github.com/adrenalineoverdrive/better-trading/archive/refs/heads/master.zip).
+2. Extract the ZIP file.
+3. Open Chrome and go to `chrome://extensions`.
+4. Enable **Developer mode**.
+5. Click **Load unpacked**.
+6. Select the extracted `dist/dev` folder. For a normal ZIP extraction this is:
+   `better-trading-master/better-trading-master/dist/dev`.
+7. Open or refresh the Path of Exile trade page.
+
+After a new build is published, download the latest ZIP again and use the new
+`dist/dev` folder. In Chrome, click **Reload** on the extension and refresh the
+trade page if it was already installed.
+
 ## Contributing
 
 1. Make sure Node.js (v10.15.x) and NPM (v6.4.x) are installed;
