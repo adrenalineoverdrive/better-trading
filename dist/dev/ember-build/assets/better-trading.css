@@ -75,6 +75,10 @@ body.bt-body #trade {
   margin: 0;
   transition: width 0.2s ease;
 }
+body.bt-body #trade {
+  position: relative;
+  z-index: 1;
+}
 body.bt-body #better-trading-container {
   position: fixed;
   z-index: 1000;

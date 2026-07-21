@@ -10,6 +10,12 @@ body.bt-body {
     transition: width 0.2s ease;
   }
 
+  #trade {
+    // Keep the trade controls above the site's fixed copyright footer.
+    position: relative;
+    z-index: 1;
+  }
+
   #better-trading-container {
     position: fixed;
     z-index: 1000;
