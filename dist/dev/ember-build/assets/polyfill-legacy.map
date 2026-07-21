@@ -1,0 +1,1 @@
+{"version":3,"sources":["vendor/ember-cli-babel-polyfills/legacy.js"],"sourcesContent":["__babelPolyfillDefine('legacy.js', ['shared.js'], function (__chunk1_js) { 'use strict';\n\n\tvar legacy = {\n\n\t};\n\n\treturn legacy;\n\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;","file":"polyfill-legacy.js"}
